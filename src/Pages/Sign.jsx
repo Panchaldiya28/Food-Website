@@ -46,7 +46,7 @@ export default function Login() {
       setError(err.message.replace("Firebase:", ""));
     }
   };
-  console.log("Hello for git")
+  // console.log("Hello for git")
   return (
     <div className="flex flex-col min-h-screen bg-slate-200">
       <div className="flex justify-center items-center flex-grow">
