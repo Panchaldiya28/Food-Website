@@ -47,6 +47,7 @@ export default function Login() {
     }
   };
   // console.log("Hello for git")
+  // new branch
   return (
     <div className="flex flex-col min-h-screen bg-slate-200">
       <div className="flex justify-center items-center flex-grow">
