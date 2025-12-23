@@ -36,7 +36,7 @@ function OrderSummary() {
 
   return (
     <div className="flex flex-col p-6 bg-gray-50 min-h-screen gap-6">
-      <h1 className="text-3xl font-bold text-gray-800 text-center">
+      <h1 className="text-6xl font-bold text-gray-800 text-center p-6">
         Order Summary
       </h1>
       <div className="space-y-4">
@@ -93,7 +93,7 @@ function OrderSummary() {
       </div>
       {cart.length > 0 && (
         <div className="w-full max-w-md bg-white p-6 rounded-xl shadow space-y-3 mt-6 self-center">
-          <h2 className="font-semibold text-gray-800 text-xl text-center">
+          <h2 className="font-semibold text-gray-800 text-xl text-center ">
             Bill Summary
           </h2>
           <div className="flex justify-between text-gray-700 font-medium">
